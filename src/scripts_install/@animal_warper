@@ -237,7 +237,7 @@ while ($ac <= $#argv)
             exit 1
         endif
         set feature_size = $argv[$ac]
-        set feature_option =  "-feature size $feature_size"
+        set feature_option =  "-feature_size $feature_size"
     else if ("$argv[$ac]" == "-supersize") then
         set supersize = "-supersize"
     else if ("$argv[$ac]" == "-keep_temp") then
